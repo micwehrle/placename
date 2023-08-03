@@ -1,13 +1,17 @@
 {
   "name": "placename",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "find a normalized place name and lat/lon from a free-form location query",
   "main": "index.js",
+  "bin": {
+    "placename": "bin/cmd.js"
+  },
   "dependencies": {
-    "countrynames": "~0.1.1",
-    "level": "~0.17.0-1",
     "cities1000": "~0.0.0",
-    "provinces": "~0.0.0",
+    "countrynames": "~0.1.1",
+    "level": "^1.3.0",
+    "optimist": "~0.6.0",
+    "provinces": "^1.3.0",
     "quotemeta": "~0.0.0",
     "split": "~0.2.10",
     "through": "~2.3.4"
